@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "init_tables": "node src/configs/createSchema.js && node src/configs/initTables.js",
+        "start": "node src/index.js"
+    },
+    "dependencies": {
+        "dotenv": "^16.3.1",
+        "mysql2": "^3.5.2"
+    }
+}
